@@ -12,7 +12,36 @@
 
     <!-- First, create a form tag where our inputs will be nested -->
 
-
+    <form>
+  <label for="fullname">What is you full name?</label>
+  <input 
+  required
+  type="text"
+  id="fullname"
+  name="fullname"
+  placeholder="Enter Name"/>
+  <label for="email">what is your email?</label>
+  <input
+  type="text"
+  id="email"
+  name="email"
+  placeholder="Enter Email?"/>
+  <label for="phone"What is your phone number?></label>
+  <input
+  required
+  type="tel"
+  id="phone"
+  name="phone"
+  placeholder="Enter Telephone (optional)"/>
+  <h3>Give any additional information about you</h3>
+  <textarea id="message" name="message" placeholder="Enter Message"></textarea>
+  <h4>What are your hobbies?</h4>
+  <input type="checkbox" name="hobby-1" value="Adventure"/>Adventure<br />
+  <input type="checkbox" name="hobby-2" value="Travelling"/>Travelling<br />
+  <input type="checkbox" name="hobby-3" value="Swimming"/>Swimming<br />
+  <input type="checkbox" name="hobby-4" value="Gaming"/>Gaming<br />
+  <input type="submit" value="submit"/>
+    </form>
       <!-- Add a label for 'fullname'-->
 
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
